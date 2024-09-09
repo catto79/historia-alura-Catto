@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Jornada dos Artefatos Antigos</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Durante uma visita a um museu, você encontra um antigo diário que fala sobre três artefatos lendários escondidos ao redor do mundo. Decida qual local explorar primeiro para começar sua busca.</p>
+            <button class="btn-proximo" data-proximo="1">Egito</button>
+            <button class="btn-proximo" data-proximo="2">Índia</button>
+            <button class="btn-proximo" data-proximo="3">China</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>No Egito, você chega às pirâmides de Gizé. O diário menciona que o primeiro artefato está escondido em um local específico dentro da Grande Pirâmide. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="4">Explorar a Grande Pirâmide</button>
+            <button class="btn-proximo" data-proximo="5">Visitar o Museu Egípcio</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na Índia, você chega ao Taj Mahal. O diário diz que o segundo artefato pode ser encontrado em uma câmara secreta sob o monumento. Qual caminho você escolhe?</p>
+            <button class="btn-proximo" data-proximo="6">Procurar a câmara secreta</button>
+            <button class="btn-proximo" data-proximo="7">Explorar os jardins</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Na China, você visita a Grande Muralha. O diário menciona que o terceiro artefato está escondido em uma torre antiga ao longo da muralha. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="8">Subir na torre antiga</button>
+            <button class="btn-proximo" data-proximo="9">Explorar a base da muralha</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Explorando a Grande Pirâmide, você encontra um túnel escondido que leva a uma sala secreta com o primeiro artefato. Parabéns!</p>
+            <button class="btn-proximo" data-proximo="10">Voltar ao início</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>No Museu Egípcio, você encontra uma nova pista sobre o segundo artefato, que está na Índia. Prepare-se para uma nova jornada!</p>
+            <button class="btn-proximo" data-proximo="2">Viajar para a Índia</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Você encontra a câmara secreta sob o Taj Mahal e descobre o segundo artefato! Excelente trabalho!</p>
+            <button class="btn-proximo" data-proximo="10">Voltar ao início</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Os jardins são lindos, mas não há nenhuma pista do artefato. Você decide retornar e procurar a câmara secreta.</p>
+            <button class="btn-proximo" data-proximo="6">Procurar a câmara secreta</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Na torre antiga, você encontra o terceiro artefato escondido em um compartimento secreto. Você completou sua busca com sucesso!</p>
+            <button class="btn-proximo" data-proximo="10">Voltar ao início</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Explorando a base da muralha, você não encontra o artefato. É melhor tentar subir na torre antiga.</p>
+            <button class="btn-proximo" data-proximo="8">Subir na torre antiga</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Você completou sua jornada e encontrou todos os artefatos! Parabéns por resolver o mistério e fazer descobertas incríveis!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
